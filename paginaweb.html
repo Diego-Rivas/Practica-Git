@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Zapatos</title>
+    <style>
+        body {
+            font-family: Arial,
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th td {
+            border: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        fieldset {
+            margin: 20px;
+            padding: 15px;
+            border: 2px red;
+        }
+    </style>
+</head>
+ <body>
+    <header>
+        <h1>Tienda de Zapatos</h1>
+    </header>
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Catálogo</a>
+        <a href="#">Contacto</a>
+    </nav>
+    <main>
+        <h2>Lista de Zapatos</h2>
+        <table>
+            <tr>
+                <th>Modelo</th>
+                <th>Precio</th>
+                <th>Disponibilidad</th>
+            </tr>
+            <tr>
+                <td>Deportivos</td>
+                <td>$50</td>
+                <td><mark>Disponible</mark></td>
+            </tr>
+            <tr>
+                <td>Casuales</td>
+                <td>$40</td>
+                <td>Agotado</td>
+            </tr>
+            <tr>
+                <td>Formales</td>
+                <td>$70</td>
+                <td><mark>Disponible</mark></td>
+            </tr>
+        </table>
+        <h2>Video Promocional</h2>
+    <video width="320" height="240" controls>
+        <source src="../Practica-Git/Nike - hyperadapt 1.0.mp4" type="video/mp4">
+    </video>
+</body>
+</html>
